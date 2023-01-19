@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  color: rgb(4, 255, 0);
+  padding: 180px 0 315px 0;
+  background-image: url(/assets/conten.svg);
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: black;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(71, 146, 73, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+}
+
+.lesson-wrapper {
+  padding-bottom: 70px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: rgba(71, 146, 73, 0.9);
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #200e29;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 44%;
+  width: 100%;
+  color: white;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: rgba(71, 146, 73, 0.9);
+}
+.connect {
+  margin-top: 15px;
+  padding: 5px 5px;
+  background-color: #0084ff;
+  cursor: pointer;
+  border-radius: 50px;
+  /* box-shadow: 0 7px #1a7940; */
+}
+input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  padding: 10px;
+
+  border: none;
+  border-radius: 5px;
+  background-color: #c9c9c9;
+  text-align: end;
+}
+.swap {
+  margin-top: 15px;
+  padding: 5px 5px;
+  background-color: #0084ff;
+  cursor: pointer;
+  border-radius: 10px;
+  /* box-shadow: 0 7px #1a7940; */
+}
+.btnswap {
+  padding: 12px 24px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.btnswap:hover {
+  opacity: 1;
+}
+.swap:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.connect:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+.panah {
+  margin-left: 50px;
+  width: 40px;
+}
+select {
+  background-color: #c9c9c9;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 15px;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
