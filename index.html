@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Risex</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="/assets/risexlogo.png" />
+        </div>
+        <!-- Tambahkan ikon menu di sini -->
+        <span class="fa fa-bars menu-icon"></span>
+        <div class="header-right">
+          <a href="#">Rumah</a>
+          <a href="#">Swap</a>
+          <a href="#" class="login">Komunitas</a>
+          <span class="btn connect">Connect</span>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>Risqi Exchange</h1>
+        <h1>Pasar dezentralized tanpa biaya.</h1>
+        <p>Risex adalah pasar pertukaran mata uang crypto tanpa ijin.</p>
+        <p>Kami menawarkan pertukaran tanpa biaya.</p>
+        <div class="btn-wrapper">
+          
+        </div>
+      </div>
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+
+          <!-- Swap -->
+          <h1>Swap</h1>
+          <select id="myCoin">
+            <option value="300">BNB</option>
+            <option value="1500">ETH</option>
+            <option value="20000">BTC</option>
+          </select>
+          <input type="number" placeholder="Amount" id="coin" /><br />
+          <img class="panah" src="/assets/panah.svg" alt="panah" /><br />
+          <select id="usd">
+            <option value="1">USDT</option>
+            <option value="1">BUSD</option>
+            <option value="1">USDC</option>
+          </select>
+          <input type="number" id="stable" placeholder="Amount" /><br />
+          <span onclick="swap()" class="btnswap swap">Swap</span>
+          <!-- end swap -->
+
+
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="message-wrapper">
+      <a class="container">
+        <div class="heading">
+          <h2>Komunitas</h2>
+          <h3>Bergabunglah dengan komunitas, sampaikan masalah anda.</h3>
+        </div>
+        <a href="https://instagram.com/risqiansyah_"><span class="btn message">Gabung</span></a>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <img src="/assets/risexlogo.png" />
+        <p>Pasar dezentralized tanpa biaya.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
