@@ -40,9 +40,14 @@
   }
 
   /* Tambahkan CSS untuk menu-icon */
-  .menu-icon {
-    display: block;
-  }
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  
+}
 
   .top-wrapper h1 {
     font-size: 24px;
